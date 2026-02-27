@@ -1,3 +1,11 @@
+/*Desktop*/
+@media(min-width:1440px;){flex-direction: row;}
+
+/*phones*/
+@media(min-width:600px;){flex-direction:column;}
+
+
+
 .sedans{
     background-color: rgb(238, 145, 5);
     padding-left: 10px;
@@ -17,17 +25,19 @@ padding:30px;
     text-align: center;
     border: 1px solid white;
     border-radius: 20px;
-    height: 430px;
-    position: relative;
+    height:450px; 
     justify-content: center;
     flex-wrap:wrap;
     margin: 50px;
-    width: 50%;
+    padding: 60px;
+    margin: 30px;
+    
 }
-#child{ flex-grow: 1;
-flex-shrink: 1;
-flex-basis: 0;
-height: 300px;}
+#child{
+    width: 300px;
+    height: auto;
+
+}
 
 p{color:rgba(255, 255, 255, 0.504);
 text-align: left;
@@ -37,7 +47,6 @@ a{
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
-    padding-bottom:px;
     background-color: rgb(249, 250, 251);
 
 
